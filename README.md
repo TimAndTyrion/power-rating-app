@@ -19,6 +19,10 @@ Another feature would be the ability to add contests to the database and generat
 
 I'd like to seed the database with franchises in the future.  
 
+Will NEED to put in unit testing and integration testing for both the API and APP.  
+
+Also will need to work on the linters and formatters.
+
 # How to run the Power Rating App
 Everything is containerized, so running the code should be straightforward. 
 
