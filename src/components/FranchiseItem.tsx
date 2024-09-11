@@ -37,7 +37,7 @@ const FranchiseItem = (props: Props) => {
 		<li key={franchise.id} style={{padding: 10}}>
 			<div>
 				<span style={{padding: 10}}>Power Ranking: {index + 1}</span>
-				<span style={{padding: 10}}>Power Raring: {franchise.powerRating}</span>
+				<span style={{padding: 10}}>Power Rating: {franchise.powerRating}</span>
 				<span style={{padding: 10}}>{franchise.name}</span>
 				<button style={{padding: 10}} onClick={onEditFranchise}>Edit Franchise</button>
 				<button style={{padding: 10}} onClick={onDeleteFranchise}>Delete Franchise</button>
