@@ -1,0 +1,8 @@
+services:
+  power-rating-app:
+    container_name: power-rating-app-container
+    image: ${DOCKER_REGISTRY-}power-rating-app
+    ports:
+        - 3000:5173
+    build:
+        dockerfile: Dockerfile

@@ -25,7 +25,7 @@ const FranchiseList = () => {
   	if (error) return <div>An error occurred: {error.message}</div>;
 
 	const sortedFranchises = [...franchises].sort((a,b) => b.powerRating - a.powerRating);
-	console.log(sortedFranchises);
+	
 	return (
 		<div>
 			<div>

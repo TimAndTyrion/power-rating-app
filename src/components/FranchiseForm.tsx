@@ -77,28 +77,28 @@ const FranchiseForm = (props: Props) => {
 
   return (
 		<div>
-			HERE: {isAddNew ? 'true' : 'false'}
-			<div>
-				<input
+			<div style={{padding: 10, paddingLeft: 10}}>
+				Franchise Name: <input
 					type="text"
 					value={franchiseName}
 					onChange={(e) => setFranchiseName(e.target.value)}
 					placeholder="Name"
-				/>
-				<input
+				/>&nbsp;
+				Power Rating: <input
+					style={{paddingLeft: 10}}
 					type="text"
 					value={franchiseRating}
 					onChange={onRatingChange}
 					placeholder="Power Rating"
 				/>
 			</div>
-			<div>
-				<input
+			<div style={{padding: 10}}>
+				Franchise Location: <input
 					type="text"
 					value={franchiseCity}
 					onChange={(e) => setFranchiseCity(e.target.value)}
 					placeholder="city"
-				/>
+				/>,
 				<input
 					type="text"
 					value={franchiseState}
