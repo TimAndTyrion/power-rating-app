@@ -27,7 +27,7 @@ Also will need to work on the linters and formatters.
 Everything is containerized, so running the code should be straightforward. 
 
 ## Run Power Rating API
-The following steps will start up two containers: one for the SQL DB and one for the .NET Core Web API. The code for this is in another repository: https://github.com/TimAndTyrion/power-rating-ap1.
+The following steps will start up two containers: one for the SQL DB and one for the .NET Core Web API. The code for this is in another repository: https://github.com/TimAndTyrion/power-rating-api.
 - Navigate to the 'power-rating-api' directory, which should contain the docker-compose.yml file.
 - Run the command docker compose up -d.
 - You should see two images and containers created for the SQL Server and the power-rating-api.
